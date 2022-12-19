@@ -23,7 +23,7 @@ export default function Root() {
         <Meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta
           name="description"
-          content="Dependency free SVG Spinners for SolidJS"
+          content="Dependency free SVG Loading Spinners for SolidJS"
         />
       </Head>
       <Body>

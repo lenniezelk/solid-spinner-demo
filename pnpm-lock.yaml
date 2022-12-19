@@ -7,7 +7,7 @@ specifiers:
   '@solidjs/router': ^0.5.1
   solid-icons: ^1.0.4
   solid-js: ^1.6.5
-  solid-spinner: ^0.1.8
+  solid-spinner: ^0.1.9
   solid-start: ^0.2.7
   solid-start-cloudflare-pages: ^0.2.7
   solid-start-node: ^0.2.7
@@ -22,7 +22,7 @@ dependencies:
   '@solidjs/router': 0.5.1_solid-js@1.6.5
   solid-icons: 1.0.4_solid-js@1.6.5
   solid-js: 1.6.5
-  solid-spinner: 0.1.8_solid-js@1.6.5
+  solid-spinner: 0.1.9_solid-js@1.6.5
   solid-start: 0.2.7_jfq6s65pvyuo652ytqnpyknqye
   undici: 5.14.0
 
@@ -3007,8 +3007,8 @@ packages:
       '@babel/types': 7.20.5
       solid-js: 1.6.5
 
-  /solid-spinner/0.1.8_solid-js@1.6.5:
-    resolution: {integrity: sha512-mjaz6z4/XYTc5SxWXpAE2I5zPrZvHs+GClFTIsdItXMwF5epzbqtSWTzuuw1hud+yMULk/Z8briLxvwo0IIFIA==}
+  /solid-spinner/0.1.9_solid-js@1.6.5:
+    resolution: {integrity: sha512-cwSmcvlSm134MzUHL1/Il5Mv0/eWTuj0D3A8TBEvVGgN00hBCyHV9wbtfkK2uOlk4gop4FvvI9UFo9mQnONx5g==}
     engines: {node: '>=16'}
     peerDependencies:
       solid-js: '*'
