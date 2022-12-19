@@ -15,7 +15,7 @@ const Home: Component = () => {
       <div class={`${styles.docsLink}`}>
         <a
           target="__blank"
-          href="https://github.com/lenniezelk/solid-spinner#wip-solid-spinner"
+          href="https://github.com/lenniezelk/solid-spinner#solid-spinner"
         >
           Docs <FaSolidBookOpen style={{ 'margin-left': '8px' }} size="24" />
         </a>
