@@ -98,3 +98,7 @@ a:hover {
   color: var(--color-navy-blue);
 }
 
+main {
+  margin-bottom: 16px;
+}
+
