@@ -12,6 +12,8 @@ import {
   Scripts,
 } from 'solid-start';
 import './root.css';
+import '@fontsource/montserrat';
+import '@fontsource/open-sans';
 
 export default function Root() {
   return (

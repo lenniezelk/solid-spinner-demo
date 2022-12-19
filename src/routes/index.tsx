@@ -1,10 +1,13 @@
 import { Title } from 'solid-start';
+import Home from '~/components/Home';
 
-export default function Home() {
+export default function Index() {
   return (
-    <main>
-      <Title>Solid Spinner | Home</Title>
-      <h1>Hello world!</h1>
-    </main>
+    <div class="container">
+      <main>
+        <Title>Solid Spinner | Home</Title>
+        <Home />
+      </main>
+    </div>
   );
 }

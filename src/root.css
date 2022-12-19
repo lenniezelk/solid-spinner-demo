@@ -20,8 +20,9 @@
   --color-navy-blue: #05445E;
 
   /* Fonts */
-  --body-font: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
-  --heading-font: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+  --body-font: "Open Sans", sans-serif;
+  --heading-font: "Montserrat", sans-serif;
+  --body-color: var(--color-baby-blue);
 }
 
 /*
@@ -39,7 +40,7 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   background-color: var(--color-blue-grotto);
-  color: #fff;
+  color: var(--body-color);
   font-family: var(--body-font);
 }
 /*
@@ -65,10 +66,35 @@ p, h1, h2, h3, h4, h5, h6 {
 h1, h2, h3, h4, h5, h6 {
  font-family: var(--heading-font);
 }
+
+h1 {
+  font-size: 2.5rem;
+}
 /*
   9. Create a root stacking context
 */
 #root, #__next {
   isolation: isolate;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 0 8px;
+  }
+}
+
+a {
+  color: var(--body-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-navy-blue);
 }
 
