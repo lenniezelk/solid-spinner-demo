@@ -25,6 +25,8 @@ export default function Root() {
           name="description"
           content="Dependency free SVG Loading Spinners for SolidJS"
         />
+        <Meta property="og:title" content="Solid Spinner" />
+        <Meta property="og:url" content="/images/og-image.png" />
       </Head>
       <Body>
         <Suspense>
